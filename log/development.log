@@ -32648,3 +32648,10 @@ app/controllers/static_controller.rb:4:in `hello_world'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (27.2ms)
+Started GET "/hello_world" for 173.18.197.157 at 2020-06-28 15:10:19 +0000
+Processing by StaticController#hello_world as HTML
+  Rendering static/hello_world.erb within layouts/application
+  Rendered static/hello_world.erb within layouts/application (1.1ms)
+Completed 200 OK in 390ms (Views: 380.9ms | ActiveRecord: 0.0ms)
+
+
